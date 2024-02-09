@@ -8,7 +8,9 @@ Esse é o meu primeiro projeto na vida e em front-end utilizando HTML, CSS e Jav
 O projeto se consiste em questionário de 10 perguntas com 3 respostas tipo botão, que apenas um deles pode ser marcado, remodelado e com uma barra inferior que marca os acertos.
 Nesse projeto aprendi muitas coisas desde das tags do HTML; o método das caixas e todas as propriedades delas desde padding, margin, background, etc do CSS; e o uso de arrays,  objetos, for e if com JavaScript. 
 Apesar de seguir todo passo a passo, não consegui encontrar e resolver os problemas em CSS de um marcador de ordem dobrado, por conta da contagem do bloco de respostas junto de perguntas; e a falta da divisão das caixas de perguntas e respostas.
-Alem disso, houve a criação de uma função para a construção das questões utilização do ChatGPT para seguir o modelo criado e seguir o padrão de código e das perguntas de maneira customizada e automática, evitando a repetição desnecessária.
+
+Alem disso, houve a criação de uma função para a construção das questões utilização do ChatGPT para seguir o modelo criado e seguir o padrão de código e das perguntas de maneira customizada e automática, evitando a repetição desnecessária. Função abaixo:
+
 {
       pergunta: "Qual é a função do operador '===' em JavaScript?",
       respostas: [
@@ -19,6 +21,7 @@ Alem disso, houve a criação de uma função para a construção das questões 
       correta: 1
     },
 
+ Alterando apenas essa linha de código e mandando a ordem correta ao ChatGPT é possível fazer quiz de qualquer coisa e mandar para algúem.
 
 
 
